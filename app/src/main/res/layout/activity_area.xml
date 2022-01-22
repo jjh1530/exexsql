@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".area">
+
+    <Button
+        android:id="@+id/btn_main3"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="#0B0B0B"
+        android:clickable="true"
+        android:onClick="displaylist"
+        android:text="태양광"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gyeonggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="184dp"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:onClick="gyeonggi"
+        android:text="경기도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main3" />
+
+    <Button
+        android:id="@+id/btn_gangwon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="192dp"
+        android:background="#EC8080"
+        android:clickable="true"
+        android:onClick="gangwon"
+        android:text="강원도"
+        app:layout_constraintStart_toEndOf="@+id/btn_gyeonggi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_chungbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:background="#B8ABAB"
+        android:clickable="true"
+        android:onClick="chungbuk"
+        android:text="충청북도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gyeonggi" />
+
+    <Button
+        android:id="@+id/btn_chungnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"
+        android:background="#75C8D3"
+        android:clickable="true"
+        android:onClick="chungnam"
+        android:text="충청남도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gyeonggi" />
+
+    <Button
+        android:id="@+id/btn_jeonbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="60dp"
+        android:background="#C795CF"
+        android:clickable="true"
+        android:onClick="jeonbuk"
+        android:text="전라북도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_chungbuk" />
+
+    <Button
+        android:id="@+id/btn_jeonam"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:background="#C3BCBC"
+        android:clickable="true"
+        android:onClick="jeonam"
+        android:text="전라남도"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_jeonbuk" />
+
+    <Button
+        android:id="@+id/btn_gyeongbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="310dp"
+        android:background="#B2E8B4"
+        android:onClick="gyeongbuk"
+        android:text="경상북도"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gyeongnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:background="#E4CCE8"
+        android:clickable="true"
+        android:onClick="gyeongnam"
+        android:text="경상남도"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_areapower"
+        android:layout_width="199dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:text="지역별 발전량"
+        android:textColor="#040404"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="408dp"
+        android:layout_height="517dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/area" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

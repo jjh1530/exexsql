@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_main15"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="#0B0B0B"
+        android:clickable="true"
+        android:onClick="displaylist"
+        android:text="태양광"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pannel2"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel2"
+        android:text="패널2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pannel1"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="348dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel1"
+        android:text="패널1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main15" />
+
+    <Button
+        android:id="@+id/pannel3"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="36dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel3"
+        android:text="패널3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pannel1" />
+
+    <Button
+        android:id="@+id/pannel4"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel4"
+        android:text="패널4"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pannel2" />
+
+    <Button
+        android:id="@+id/pannel5"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="37dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel5"
+        android:text="패널5"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pannel3" />
+
+    <Button
+        android:id="@+id/pannel6"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="pannel6"
+        android:text="패널6"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pannel4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="306dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_main15"
+        app:srcCompat="@drawable/sun" />
+</androidx.constraintlayout.widget.ConstraintLayout>
